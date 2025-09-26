@@ -1,0 +1,29 @@
+producto,categoria,precio_compra,precio_venta,stock_actual,stock_minimo,proveedor
+Cuaderno profesional Scribe,Cuadernos,32.00,45.50,45,20,Papelera del Norte
+Cuaderno espiral chico,Cuadernos,19.00,28.00,38,15,Papelera del Norte
+Lápiz Mirado 2B,Escritura,5.00,8.00,120,50,Dixion Comercial
+Pluma BIC azul,Escritura,4.50,7.50,85,40,BIC México
+Pluma BIC negra,Escritura,4.50,7.50,72,40,BIC México
+Pluma gel colores 10pz,Escritura,58.00,85.00,12,5,Pelikan México
+Goma Pelikan,Escritura,3.00,5.00,65,30,Pelikan México
+Corrector líquido,Escritura,11.00,18.00,22,10,Pelikan México
+Marcatextos 6pz,Escritura,28.00,45.00,18,8,Stabilo
+Sacapuntas metal,Escritura,7.50,12.00,25,10,Dixion Comercial
+Pegamento Pritt 40g,Adhesivos,22.00,35.00,28,15,Henkel México
+Resistol 850 250ml,Adhesivos,26.00,42.00,15,8,Henkel México
+Hojas blancas 500pz,Papel,56.00,89.00,42,20,Copamex
+Papel bond colores 100pz,Papel,42.00,65.00,18,10,Copamex
+Tijeras escolares,Corte,15.00,25.00,32,15,Barrilito
+Colores Mapita 12pz,Arte,28.00,45.00,25,10,Dixon Comercial
+Colores Prismacolor 24pz,Arte,210.00,320.00,8,3,Prismacolor México
+Marcadores Sharpie 12pz,Arte,125.00,185.00,10,4,Newell Brands
+Folder manila,Organización,2.00,3.50,180,100,Papelera del Norte
+Carpeta tamaño carta,Organización,7.50,12.00,35,20,Wilson
+Post-it 3x3,Organización,18.00,28.00,22,10,3M México
+Regla 30cm,Medición,9.00,15.00,28,15,Barrilito
+Juego de geometría,Medición,35.00,55.00,18,8,Maped
+Calculadora básica,Electrónicos,75.00,120.00,12,5,Casio México
+Calculadora científica Casio,Electrónicos,165.00,250.00,6,2,Casio México
+Mochila escolar básica,Mochilas,220.00,350.00,15,5,Textiles Escolares
+Mochila escolar premium,Mochilas,380.00,550.00,8,3,Textiles Escolares
+Diccionario español,Libros,85.00,125.00,10,4,Editorial Larousse

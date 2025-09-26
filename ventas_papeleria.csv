@@ -1,0 +1,78 @@
+fecha,hora,producto,categoria,cantidad,precio_unitario,total,metodo_pago,vendedor
+2024-07-01,09:15,Cuaderno profesional Scribe,Cuadernos,3,45.50,136.50,Efectivo,Maria
+2024-07-01,10:30,Lápiz Mirado 2B,Escritura,12,8.00,96.00,Efectivo,Maria
+2024-07-01,11:45,Pegamento Pritt 40g,Adhesivos,2,35.00,70.00,Tarjeta,Carlos
+2024-07-01,14:20,Hojas blancas 500pz,Papel,1,89.00,89.00,Efectivo,Maria
+2024-07-01,16:00,Pluma BIC azul,Escritura,6,7.50,45.00,Efectivo,Carlos
+2024-07-02,09:00,Carpeta tamaño carta,Organización,4,12.00,48.00,Efectivo,Maria
+2024-07-02,10:15,Marcadores Sharpie 12pz,Arte,1,185.00,185.00,Tarjeta,Carlos
+2024-07-02,13:30,Calculadora científica Casio,Electrónicos,1,250.00,250.00,Transferencia,Maria
+2024-07-03,08:45,Goma Pelikan,Escritura,10,5.00,50.00,Efectivo,Carlos
+2024-07-03,11:00,Tijeras escolares,Corte,3,25.00,75.00,Efectivo,Maria
+2024-07-03,15:30,Colores Prismacolor 24pz,Arte,1,320.00,320.00,Tarjeta,Carlos
+2024-07-05,09:30,Cuaderno profesional Scribe,Cuadernos,5,45.50,227.50,Efectivo,Maria
+2024-07-05,12:00,Corrector líquido,Escritura,4,18.00,72.00,Efectivo,Carlos
+2024-07-06,10:00,Papel bond colores 100pz,Papel,2,65.00,130.00,Tarjeta,Maria
+2024-07-08,09:15,Pluma BIC negra,Escritura,12,7.50,90.00,Efectivo,Carlos
+2024-07-08,14:45,Folder manila,Organización,20,3.50,70.00,Efectivo,Maria
+2024-07-10,11:30,Marcatextos 6pz,Escritura,2,45.00,90.00,Efectivo,Carlos
+2024-07-12,10:00,Cuaderno espiral chico,Cuadernos,8,28.00,224.00,Tarjeta,Maria
+2024-07-15,09:00,Lápiz Mirado 2B,Escritura,24,8.00,192.00,Efectivo,Carlos
+2024-07-15,13:20,Resistol 850 250ml,Adhesivos,1,42.00,42.00,Efectivo,Maria
+2024-07-18,15:00,Hojas blancas 500pz,Papel,3,89.00,267.00,Tarjeta,Carlos
+2024-07-20,11:15,Sacapuntas metal,Escritura,5,12.00,60.00,Efectivo,Maria
+2024-07-22,09:45,Pluma gel colores 10pz,Escritura,2,85.00,170.00,Tarjeta,Carlos
+2024-07-25,10:30,Cuaderno profesional Scribe,Cuadernos,4,45.50,182.00,Efectivo,Maria
+2024-07-28,14:00,Regla 30cm,Medición,6,15.00,90.00,Efectivo,Carlos
+2024-07-30,16:30,Post-it 3x3,Organización,3,28.00,84.00,Efectivo,Maria
+2024-08-01,08:30,Mochila escolar básica,Mochilas,1,350.00,350.00,Tarjeta,Carlos
+2024-08-01,09:00,Cuaderno profesional Scribe,Cuadernos,10,45.50,455.00,Efectivo,Maria
+2024-08-01,10:15,Lápiz Mirado 2B,Escritura,36,8.00,288.00,Efectivo,Carlos
+2024-08-02,09:30,Pluma BIC azul,Escritura,24,7.50,180.00,Efectivo,Maria
+2024-08-02,11:00,Colores Mapita 12pz,Arte,5,45.00,225.00,Efectivo,Carlos
+2024-08-03,08:45,Pegamento Pritt 40g,Adhesivos,8,35.00,280.00,Tarjeta,Maria
+2024-08-03,13:00,Tijeras escolares,Corte,6,25.00,150.00,Efectivo,Carlos
+2024-08-05,09:00,Cuaderno espiral chico,Cuadernos,15,28.00,420.00,Efectivo,Maria
+2024-08-05,10:30,Goma Pelikan,Escritura,20,5.00,100.00,Efectivo,Carlos
+2024-08-05,14:20,Juego de geometría,Medición,4,55.00,220.00,Tarjeta,Maria
+2024-08-06,08:30,Mochila escolar premium,Mochilas,2,550.00,1100.00,Tarjeta,Carlos
+2024-08-07,09:15,Diccionario español,Libros,3,125.00,375.00,Efectivo,Maria
+2024-08-08,10:00,Cuaderno profesional Scribe,Cuadernos,12,45.50,546.00,Efectivo,Carlos
+2024-08-08,11:30,Pluma BIC negra,Escritura,18,7.50,135.00,Efectivo,Maria
+2024-08-08,15:45,Hojas blancas 500pz,Papel,5,89.00,445.00,Tarjeta,Carlos
+2024-08-10,09:00,Lápiz Mirado 2B,Escritura,48,8.00,384.00,Efectivo,Maria
+2024-08-10,10:20,Corrector líquido,Escritura,10,18.00,180.00,Efectivo,Carlos
+2024-08-12,08:45,Cuaderno profesional Scribe,Cuadernos,20,45.50,910.00,Tarjeta,Maria
+2024-08-12,11:00,Folder manila,Organización,50,3.50,175.00,Efectivo,Carlos
+2024-08-12,14:30,Marcadores Sharpie 12pz,Arte,3,185.00,555.00,Tarjeta,Maria
+2024-08-13,09:15,Pegamento Pritt 40g,Adhesivos,12,35.00,420.00,Efectivo,Carlos
+2024-08-14,10:00,Calculadora básica,Electrónicos,4,120.00,480.00,Efectivo,Maria
+2024-08-15,08:30,Cuaderno espiral chico,Cuadernos,25,28.00,700.00,Efectivo,Carlos
+2024-08-15,09:45,Pluma BIC azul,Escritura,36,7.50,270.00,Efectivo,Maria
+2024-08-15,11:20,Colores Prismacolor 24pz,Arte,2,320.00,640.00,Tarjeta,Carlos
+2024-08-15,14:00,Goma Pelikan,Escritura,30,5.00,150.00,Efectivo,Maria
+2024-08-16,09:30,Mochila escolar básica,Mochilas,3,350.00,1050.00,Tarjeta,Carlos
+2024-08-17,10:15,Tijeras escolares,Corte,8,25.00,200.00,Efectivo,Maria
+2024-08-18,08:45,Cuaderno profesional Scribe,Cuadernos,15,45.50,682.50,Efectivo,Carlos
+2024-08-18,11:30,Resistol 850 250ml,Adhesivos,5,42.00,210.00,Efectivo,Maria
+2024-08-20,09:00,Hojas blancas 500pz,Papel,8,89.00,712.00,Tarjeta,Carlos
+2024-08-20,13:45,Pluma gel colores 10pz,Escritura,4,85.00,340.00,Tarjeta,Maria
+2024-08-22,10:30,Cuaderno espiral chico,Cuadernos,18,28.00,504.00,Efectivo,Carlos
+2024-08-25,09:15,Lápiz Mirado 2B,Escritura,60,8.00,480.00,Efectivo,Maria
+2024-08-28,14:00,Marcatextos 6pz,Escritura,6,45.00,270.00,Efectivo,Carlos
+2024-08-30,11:00,Cuaderno profesional Scribe,Cuadernos,8,45.50,364.00,Efectivo,Maria
+2024-09-02,09:00,Pluma BIC azul,Escritura,15,7.50,112.50,Efectivo,Carlos
+2024-09-02,10:30,Goma Pelikan,Escritura,12,5.00,60.00,Efectivo,Maria
+2024-09-03,08:45,Cuaderno profesional Scribe,Cuadernos,6,45.50,273.00,Tarjeta,Carlos
+2024-09-05,11:15,Hojas blancas 500pz,Papel,2,89.00,178.00,Efectivo,Maria
+2024-09-08,09:30,Corrector líquido,Escritura,5,18.00,90.00,Efectivo,Carlos
+2024-09-10,14:00,Folder manila,Organización,15,3.50,52.50,Efectivo,Maria
+2024-09-12,10:45,Pegamento Pritt 40g,Adhesivos,3,35.00,105.00,Efectivo,Carlos
+2024-09-15,09:00,Cuaderno espiral chico,Cuadernos,7,28.00,196.00,Efectivo,Maria
+2024-09-15,11:30,Pluma BIC negra,Escritura,10,7.50,75.00,Efectivo,Carlos
+2024-09-18,13:20,Tijeras escolares,Corte,2,25.00,50.00,Efectivo,Maria
+2024-09-20,09:45,Lápiz Mirado 2B,Escritura,18,8.00,144.00,Efectivo,Carlos
+2024-09-22,10:00,Colores Mapita 12pz,Arte,2,45.00,90.00,Efectivo,Maria
+2024-09-25,14:30,Calculadora básica,Electrónicos,1,120.00,120.00,Tarjeta,Carlos
+2024-09-28,11:15,Cuaderno profesional Scribe,Cuadernos,4,45.50,182.00,Efectivo,Maria
+2024-09-30,09:00,Marcatextos 6pz,Escritura,3,45.00,135.00,Efectivo,Carlos

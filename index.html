@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Papelería Lupita</title>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Ascertainity UI CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/ascertainity-ui@1.0.0/dist/ascertainity-ui.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-store"></i>
+                    <h1>Papelería Lupita</h1>
+                </div>
+                <div class="header-info">
+                    <span class="periodo">Julio - Septiembre 2024</span>
+                    <span class="ubicacion"><i class="fas fa-map-marker-alt"></i> Chihuahua, México</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#ventas" class="nav-link active"><i class="fas fa-chart-line"></i> Ventas</a></li>
+                <li><a href="#categorias" class="nav-link"><i class="fas fa-tags"></i> Categorías</a></li>
+                <li><a href="#margenes" class="nav-link"><i class="fas fa-percentage"></i> Márgenes</a></li>
+                <li><a href="#empleados" class="nav-link"><i class="fas fa-users"></i> Empleados</a></li>
+                <li><a href="#inventario" class="nav-link"><i class="fas fa-boxes"></i> Inventario</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="main">
+        <div class="container">
+            <!-- KPIs Resumen -->
+            <section class="kpi-section">
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="kpi-content">
+                            <h3>Ventas Totales</h3>
+                            <p class="kpi-value" id="ventasTotales">$0</p>
+                            <p class="kpi-change positive">+12.5%</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="kpi-content">
+                            <h3>Productos Vendidos</h3>
+                            <p class="kpi-value" id="productosVendidos">0</p>
+                            <p class="kpi-change positive">+8.3%</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="kpi-content">
+                            <h3>Margen Promedio</h3>
+                            <p class="kpi-value" id="margenPromedio">0%</p>
+                            <p class="kpi-change negative">-2.1%</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="kpi-content">
+                            <h3>Alertas Inventario</h3>
+                            <p class="kpi-value" id="alertasInventario">0</p>
+                            <p class="kpi-change negative">+3</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Ventas -->
+            <section id="ventas" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-line"></i> Tendencia de Ventas</h2>
+                    <p>Evolución diaria de ventas (Julio - Septiembre 2024)</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="ventasTrendChart"></canvas>
+                </div>
+                <div class="insights">
+                    <div class="insight-card">
+                        <h4>Pico de Regreso a Clases</h4>
+                        <p>Agosto muestra el mayor volumen de ventas, coincidiendo con el regreso a clases.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>Día con Mayor Venta</h4>
+                        <p id="diaMayorVenta">Cargando...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Categorías -->
+            <section id="categorias" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-tags"></i> Desempeño por Categoría</h2>
+                    <p>Ingresos generados por cada categoría de productos</p>
+                </div>
+                <div class="charts-row">
+                    <div class="chart-container half">
+                        <canvas id="categoriasChart"></canvas>
+                    </div>
+                    <div class="chart-container half">
+                        <canvas id="categoriasPieChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Márgenes -->
+            <section id="margenes" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-percentage"></i> Análisis de Márgenes de Ganancia</h2>
+                    <p>Comparación de márgenes por producto y categoría</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="margenesChart"></canvas>
+                </div>
+                <div class="margenes-table-container">
+                    <table class="margenes-table">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Categoría</th>
+                                <th>Precio Compra</th>
+                                <th>Precio Venta</th>
+                                <th>Margen</th>
+                                <th>% Margen</th>
+                            </tr>
+                        </thead>
+                        <tbody id="margenesTableBody">
+                            <!-- Se llenará dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Sección de Empleados -->
+            <section id="empleados" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-users"></i> Comparación de Desempeño de Empleados</h2>
+                    <p>Ventas y métodos de pago por empleado</p>
+                </div>
+                <div class="charts-row">
+                    <div class="chart-container half">
+                        <canvas id="empleadosChart"></canvas>
+                    </div>
+                    <div class="chart-container half">
+                        <canvas id="metodosPagoChart"></canvas>
+                    </div>
+                </div>
+                <div class="empleados-stats">
+                    <div class="stat-card">
+                        <h4>María</h4>
+                        <p>Ventas: <span id="ventasMaria">$0</span></p>
+                        <p>Transacciones: <span id="transaccionesMaria">0</span></p>
+                        <p>Promedio: <span id="promedioMaria">$0</span></p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Carlos</h4>
+                        <p>Ventas: <span id="ventasCarlos">$0</span></p>
+                        <p>Transacciones: <span id="transaccionesCarlos">0</span></p>
+                        <p>Promedio: <span id="promedioCarlos">$0</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Inventario -->
+            <section id="inventario" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-boxes"></i> Alertas de Inventario</h2>
+                    <p>Productos con stock bajo que requieren reorden</p>
+                </div>
+                <div class="alertas-grid" id="alertasGrid">
+                    <!-- Se llenará dinámicamente -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Papelería Lupita - Dashboard Analítico</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/ascertainity-ui@1.0.0/dist/ascertainity-ui.min.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
