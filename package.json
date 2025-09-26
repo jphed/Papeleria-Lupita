@@ -1,0 +1,15 @@
+{
+    "name": "papeleria-lupita-dashboard",
+    "version": "1.0.0",
+    "description": "Dashboard para Papelería Lupita",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve -s . -l 10000"
+    },
+    "dependencies": {
+      "serve": "^14.2.0"
+    },
+    "engines": {
+      "node": ">=16.x"
+    }
+  }
