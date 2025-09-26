@@ -167,11 +167,6 @@ Este proyecto es desarrollado con fines educativos y académicos. Todos los dere
 
 Este es un proyecto académico, pero las sugerencias y mejoras son bienvenidas.
 
-## 📞 Contacto
-
-- **Email:** [Tu email]
-- **GitHub:** [@jphed](https://github.com/jphed)
-- **LinkedIn:** [Tu perfil]
 
 ---
 
